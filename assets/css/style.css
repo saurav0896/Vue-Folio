@@ -313,11 +313,19 @@ footer {
         font-weight: 500;
     }
     #site_header nav{
-        margin-top: -45%;
+        margin-top: -40%;
     }
     
-    #skill_section ul{
-        margin: 20px 100px;
+    #skills_section{
+       max-width: 400px;
+       width: 300px;
+       
+       
     }
+    #skills_section h2{
+        font-size: 21px;
+        margin-left: 160px;
+        
+     }
     
 }
