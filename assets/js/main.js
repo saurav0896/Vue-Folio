@@ -4,10 +4,10 @@ const Home = {template: `
 
     <main id='home'>
         <div class="about__me">
-            <img src="./assets/img/avatar.svg" alt="user avatar">
-            <h1>John Doe</h1>
-            <h3>Python Expert</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="./assets/img/saurav.jpg" style="width:140px; height: 140px;border:3px solid #DB5461;border-radius:10px;" alt="user avatar">
+            <h1>Saurav Singh</h1>
+            <h3>Web + IT Automation Developer</h3>
+            <p>A Web Developer also playing the role of an Automation Developer.</p>
             <div class="skills_projects_link">
                 <router-link to="/projects"> Projects | Skills </router-link>
             </div>
@@ -20,11 +20,11 @@ const Projects = {
         
         <header id="site_header" class="container d_flex">
             <div class="bio__media">
-                <img src="./assets/img/avatar.svg" alt="user avatar">
+                <img src="./assets/img/saurav.jpg" style="width:140px; height: 140px;border:3px solid #DB5461;border-radius:10px;" alt="user avatar">
                 <div class="bio__media__text">
-                    <h1>John Doe</h1>
-                    <h3>Python Expert</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h1>Saurav Singh</h1>
+                    <h3>Web + IT Automation Developer</h3>
+                    <p>A Web Developer also playing the role of an Automation Developer.</p>
                 </div>
             </div> 
             <nav>
@@ -115,12 +115,12 @@ const Projects = {
             page: 1,
             loading : true,
             errors: false,
-            gitHubLink: 'https://github.com/fbhood'
+            gitHubLink: 'https://github.com/saurav0896'
             }
     },
     methods:{
         fetchData: function () {
-            axios.get(`https://api.github.com/users/fbhood/repos?per_page=${this.perPage}&page=${this.page}`)
+            axios.get(`https://api.github.com/users/saurav0896/repos?per_page=${this.perPage}&page=${this.page}`)
                 .then(response => { 
                     console.log(response);
                     this.projects = response.data;
