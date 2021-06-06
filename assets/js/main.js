@@ -20,7 +20,7 @@ const Projects = {
         
         <header id="site_header" class="container d_flex">
             <div class="bio__media">
-                <img src="./assets/img/saurav.jpg" style="width:140px; height: 140px;border:3px solid #DB5461;border-radius:10px;" alt="user avatar">
+                <img src="./assets/img/saurav.jpg" style="border:3px solid #DB5461;border-radius:10px;" alt="user avatar">
                 <div class="bio__media__text">
                     <h1>Saurav Singh</h1>
                     <h3>Web + IT Automation Developer</h3>

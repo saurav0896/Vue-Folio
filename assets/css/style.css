@@ -31,7 +31,8 @@ a:hover {
     text-align: left;
 }
 .bio__media img {
-    height: 120px;
+    height: 140px;
+    width: 140px;
 }
 .bio__media__text {
     padding: 1rem;
@@ -288,4 +289,35 @@ footer {
         flex-basis: 100%;
         width: 100%;
     }
+    .bio__media{
+        display: block;
+    }
+
+    .bio__media img{
+        margin-left: 16px;
+        margin-top: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    .bio__media__text{
+        padding-right: 0.1rem;
+    }
+    .bio__media__text h1{
+        padding-right: 0.2rem;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .bio__media__text h3{
+        padding-right: 0.2rem;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    #site_header nav{
+        margin-top: -45%;
+    }
+    
+    #skill_section ul{
+        margin: 20px 100px;
+    }
+    
 }
